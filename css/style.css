@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+*{
+}
+
+#zesty{
+  font: normal;
+  color: rgb(147, 175, 166);
+  text-decoration: none;
+}
+
+#zesty:hover {
+  color: rgb(107, 128, 122);
+  text-decoration: none;
+}
+
+h2{
+  font: normal;
+  color: rgb(107, 128, 122);
+}
+
+[href*="http://"]:link {
+  text-decoration: none;
+  color: rgb(0, 130, 180);
+}
+
+[href*="http://"]:hover {
+  text-decoration: underline;
+}
+
+img{
+  border: 5px solid;
+  border-color: rgb(147, 175, 166);
+}
+
+.press a:link{
+    color: rgb(204, 204, 204);
+}
+
+.press a:hover{
+    color: rgb(107, 128, 122);
+}
